@@ -1,4 +1,4 @@
-#N canvas 505 160 1920 1077 12;
+#N canvas 0 0 1920 1077 12;
 #X obj 45 315 random 360;
 #X floatatom 47 349 5 0 0 0 - - - 0;
 #X obj 56 427 line;
@@ -69,7 +69,7 @@
 #X obj 696 266 s trans;
 #X obj 696 298 del 10000;
 #X obj 668 37 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 622 617 expr $f1*2.25+100;
+#X obj 622 617 expr $f1*5.25+200;
 #X connect 0 0 1 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
